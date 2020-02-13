@@ -1,0 +1,87 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "homework two",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "members",
+                    "slots": [],
+                    "samples": [
+                        "who are my team members",
+                        "who are my group members",
+                        "who is on my team",
+                        "who is on my group",
+                        "group mates",
+                        "team mates",
+                        "my team",
+                        "my group",
+                        "team members",
+                        "group members"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "leader",
+                    "slots": [],
+                    "samples": [
+                        "leader",
+                        "team leader",
+                        "group leader",
+                        "who is the team leader",
+                        "who is the group leader"
+                    ]
+                },
+                {
+                    "name": "name",
+                    "slots": [],
+                    "samples": [
+                        "who are we",
+                        "team name",
+                        "group name",
+                        "what is our team name",
+                        "what is our group name"
+                    ]
+                },
+                {
+                    "name": "EveryThingIntent",
+                    "slots": [
+                        {
+                            "name": "EveryThingSlot",
+                            "type": "BAR_OF_WORDS"
+                        }
+                    ],
+                    "samples": [
+                        "{EveryThingSlot}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "BAR_OF_WORDS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Hello World"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
