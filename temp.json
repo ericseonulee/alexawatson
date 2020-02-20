@@ -1,0 +1,183 @@
+{
+    "activationId": "d090f0cbc64c4f8090f0cbc64c2f800b",
+    "annotations": [
+        {
+            "key": "path",
+            "value": "jzl0213@auburn.edu_dev/alexa-watson"
+        },
+        {
+            "key": "waitTime",
+            "value": 2978
+        },
+        {
+            "key": "kind",
+            "value": "nodejs:10"
+        },
+        {
+            "key": "timeout",
+            "value": false
+        },
+        {
+            "key": "limits",
+            "value": {
+                "concurrency": 1,
+                "logs": 10,
+                "memory": 256,
+                "timeout": 60000
+            }
+        },
+        {
+            "key": "initTime",
+            "value": 2160
+        }
+    ],
+    "duration": 3094,
+    "end": 1582238209080,
+    "logs": [
+        "2020-02-20T22:36:48.151113Z    stdout: Begin action",
+        "2020-02-20T22:36:48.151155Z    stdout: JSON arg:",
+        "2020-02-20T22:36:48.152906Z    stdout: { ASSISTANT_APIKEY: 'g81lGYM5V7wNDGH6d-h-KKRl4S5NFoaiLNNPh68WqKM4',",
+        "2020-02-20T22:36:48.152914Z    stdout: ASSISTANT_URL:",
+        "2020-02-20T22:36:48.152916Z    stdout: 'https://api.us-south.assistant.watson.cloud.ibm.com/instances/d051e0ed-91a7-4f81-9ccb-1ab692ceb3b4',",
+        "2020-02-20T22:36:48.152919Z    stdout: SKILL_ID: 'f057afd2-53a2-4a7c-8c38-38f33c1d8b11',",
+        "2020-02-20T22:36:48.152922Z    stdout: __ow_body:",
+        "2020-02-20T22:36:48.152927Z    stdout: 'eyJ2ZXJzaW9uIjoiMS4wIiwic2Vzc2lvbiI6eyJuZXciOnRydWUsInNlc3Npb25JZCI6ImFtem4xLmVjaG8tYXBpLnNlc3Npb24uZTlhM2VhYzgtYzA5ZC00NWE0LWFiOGMtMWEzMWU5Nzg0NDY2IiwiYXBwbGljYXRpb24iOnsiYXBwbGljYXRpb25JZCI6ImFtem4xLmFzay5za2lsbC41NWIwMzEyYy01MDM0LTRiNmItOWY5MS01MGQ2YjkxYjNiYzgifSwidXNlciI6eyJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BSEpBUzU3VExIR1M0QlRDUUVJR0hQRURBM1ZaTks0SFM3Q1E1RjNKQUpYSDRUTUJTN1BKM1JGNzdYWllUTERTSUJGTDM3NFBaUE9WUk9GREs0QUxTQUlBTllGNkpWUFhJTldWM1FOM1BNTjdTR1I3TE1BSE1GQlY1V0JPWldZWDQ2VkxKN0RXWVlGVlNLWEQ3U01OMzQySVJOQTdBTVZQWlRCRExEQU1ZREIyTldTMlBQT0tCTEtKTDZETEtaRjVZM1RFUDQ1RkxFRlhHUFEifX0sImNvbnRleHQiOnsiU3lzdGVtIjp7ImFwcGxpY2F0aW9uIjp7ImFwcGxpY2F0aW9uSWQiOiJhbXpuMS5hc2suc2tpbGwuNTViMDMxMmMtNTAzNC00YjZiLTlmOTEtNTBkNmI5MWIzYmM4In0sInVzZXIiOnsidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUhKQVM1N1RMSEdTNEJUQ1FFSUdIUEVEQTNWWk5LNEhTN0NRNUYzSkFKWEg0VE1CUzdQSjNSRjc3WFpZVExEU0lCRkwzNzRQWlBPVlJPRkRLNEFMU0FJQU5ZRjZKVlBYSU5XVjNRTjNQTU43U0dSN0xNQUhNRkJWNVdCT1pXWVg0NlZMSjdEV1lZRlZTS1hEN1NNTjM0MklSTkE3QU1WUFpUQkRMREFNWURCMk5XUzJQUE9LQkxLSkw2RExLWkY1WTNURVA0NUZMRUZYR1BRIn0sImRldmljZSI6eyJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUhNUkJXU0E1NlhOVFlJWE9ER0xJWVcyQTNPMkxHVDRRWTJJSTRCVUpISDQzQTdaNUE0M0tPSE9OSEQySVZBTkxGUjVHTDU2WVlKNkVYUElSRk00UVVTVVZCR0dCQjJIVEMzTUtBTDRFTFVQRUNQQlMzTk5ES1RDMlFSUU9FUUZEWEtYMkxDU1ZLTExSNERBWEpBV1dPSjJXTVFWTVRaRTNWWlJNWEIzSU5URTVWNDdQTjZEVSIsInN1cHBvcnRlZEludGVyZmFjZXMiOnt9fSwiYXBpRW5kcG9pbnQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJhcGlBY2Nlc3NUb2tlbiI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSlNVekkxTmlJc0ltdHBaQ0k2SWpFaWZRLmV5SmhkV1FpT2lKb2RIUndjem92TDJGd2FTNWhiV0Y2YjI1aGJHVjRZUzVqYjIwaUxDSnBjM01pT2lKQmJHVjRZVk5yYVd4c1MybDBJaXdpYzNWaUlqb2lZVzE2YmpFdVlYTnJMbk5yYVd4c0xqVTFZakF6TVRKakxUVXdNelF0TkdJMllpMDVaamt4TFRVd1pEWmlPVEZpTTJKak9DSXNJbVY0Y0NJNk1UVTRNakl6T0RVd01pd2lhV0YwSWpveE5UZ3lNak00TWpBeUxDSnVZbVlpT2pFMU9ESXlNemd5TURJc0luQnlhWFpoZEdWRGJHRnBiWE1pT25zaVkyOXVkR1Y0ZENJNklrRkJRVUZCUVVGQlFVRkVlRTVwY1ZKbldqWmthbEZ6ZFdwaGFIZ3JWR3RPUzJkRlFVRkJRVUZCUVVOUVUzTlJUMngwWW1SUmFFWmxWRWRrYld4aWNTODFNVklyV1dwaWRHaERVM28zVm00dksxcDJRemRYUWpBeE9IRTNVekIyVTBvMmNISnBiVlpMWW5CUFVqVkJZVVJaV0Vkd0szWmxTVXRNV0cxTmVURnZaVU5xV0dKVWNHaFhNMWgwVVVJNFNGaDNkbmQzU1VoS1YySTJjVTF4V21KM2N6aDBOMHBLWmpONGVYSmxPVXRWSzBsc1FVZHFWRmxaVjJWak4wMHZSalpFY1U1U1YxSjBkR2c1YTFaeE1sZFhTQ3QzZG1sbmVFZHpkMEY1VEZoTVVuUlljMDFJZDI5d1UwNVVlVFJpYmxsd1UybHljbGsxVTI5bFJsQmlXSEUwV0ZScGVEZHpVVFJuU1ZKQ04xaDZRVmd6Y0U1alZXRlllRWRWVkRoM2NUUjJNWE5xUjNweFUycDVPSG8xWTJ0S1EyRjRURmRLSzNkME4wNXZVbGhWUkhwTWNWWlJTWFYyTWpWUVNYQlZNblV5Tm5BMmFVcFlhemRKYUZkUGQzbDZhMUZGYkRaVFFWbGljell3V2pZMU5FNTNTV0ZHY2pCRVNtZHdlRVpoTUhWblRUSndhM1o2YkRaMGFITkJhMkpXVlZFemFGZHZZVkE1YVdwemNHWTFUbmcyYlVGNGRUZElhR1ZrYVVZMGNFNU5hVTVJVm5seUlpd2lZMjl1YzJWdWRGUnZhMlZ1SWpwdWRXeHNMQ0prWlhacFkyVkpaQ0k2SW1GdGVtNHhMbUZ6YXk1a1pYWnBZMlV1UVVoTlVrSlhVMEUxTmxoT1ZGbEpXRTlFUjB4SldWY3lRVE5QTWt4SFZEUlJXVEpKU1RSQ1ZVcElTRFF6UVRkYU5VRTBNMHRQU0U5T1NFUXlTVlpCVGt4R1VqVkhURFUyV1ZsS05rVllVRWxTUmswMFVWVlRWVlpDUjBkQ1FqSklWRU16VFV0QlREUkZURlZRUlVOUVFsTXpUazVFUzFSRE1sRlNVVTlGVVVaRVdFdFlNa3hEVTFaTFRFeFNORVJCV0VwQlYxZFBTakpYVFZGV1RWUmFSVE5XV2xKTldFSXpTVTVVUlRWV05EZFFUalpFVlNJc0luVnpaWEpKWkNJNkltRnRlbTR4TG1GemF5NWhZMk52ZFc1MExrRklTa0ZUTlRkVVRFaEhVelJDVkVOUlJVbEhTRkJGUkVFelZscE9TelJJVXpkRFVUVkdNMHBCU2xoSU5GUk5RbE0zVUVvelVrWTNOMWhhV1ZSTVJGTkpRa1pNTXpjMFVGcFFUMVpTVDBaRVN6UkJURk5CU1VGT1dVWTJTbFpRV0VsT1YxWXpVVTR6VUUxT04xTkhVamRNVFVGSVRVWkNWalZYUWs5YVYxbFlORFpXVEVvM1JGZFpXVVpXVTB0WVJEZFRUVTR6TkRKSlVrNUJOMEZOVmxCYVZFSkVURVJCVFZsRVFqSk9WMU15VUZCUFMwSk1TMHBNTmtSTVMxcEdOVmt6VkVWUU5EVkdURVZHV0VkUVVTSjlmUS5kQzktN1Bnc1hqcTZZY0xHeXFsXzNfcUYyZ1JIelhxZE1DUGFNZUxlcGdkWW03VjJFSG9SUFIxZGUwMDdVOG5PZnhrREhwSzN0WE12N0dOYWxGdjhSY21mLUZJTG52UTZVSU9BU1A4NHhqX2VYZnNkY2MyQ0MzMEVzTmlOQnEyWGtHaUIwb0FONXJqbnIxblJzYUJ0NmdDQUNhNG5PUGREOW85blFZaU1DRjhuQXp6b01LcEU5bk1VdkdoR1VMRnVHaFZEdWVQYi05cUtGNTEwZTJMVGVHRHZWdzJpb04zQVFZdmptZEZaS0tjMmhHeW9fZTdtU3JMclFVdlJjaDBpTk1KNk1hVlMtZHpyYVBJMC1JX09jSEV2ZGNhUGtjUkplX1kxSkJJdkt5d2g1TGhCa084OElJZ25fZDJDNFFsZDltVC1Qckk1YWFSdEMyUHA5eXpvS0EifSwiVmlld3BvcnQiOnsiZXhwZXJpZW5jZXMiOlt7ImFyY01pbnV0ZVdpZHRoIjoyNDYsImFyY01pbnV0ZUhlaWdodCI6MTQ0LCJjYW5Sb3RhdGUiOmZhbHNlLCJjYW5SZXNpemUiOmZhbHNlfV0sInNoYXBlIjoiUkVDVEFOR0xFIiwicGl4ZWxXaWR0aCI6MTAyNCwicGl4ZWxIZWlnaHQiOjYwMCwiZHBpIjoxNjAsImN1cnJlbnRQaXhlbFdpZHRoIjoxMDI0LCJjdXJyZW50UGl4ZWxIZWlnaHQiOjYwMCwidG91Y2giOlsiU0lOR0xFIl0sInZpZGVvIjp7ImNvZGVjcyI6WyJIXzI2NF80MiIsIkhfMjY0XzQxIl19fSwiVmlld3BvcnRzIjpbeyJ0eXBlIjoiQVBMIiwiaWQiOiJtYWluIiwic2hhcGUiOiJSRUNUQU5HTEUiLCJkcGkiOjE2MCwicHJlc2VudGF0aW9uVHlwZSI6IlNUQU5EQVJEIiwiY2FuUm90YXRlIjpmYWxzZSwiY29uZmlndXJhdGlvbiI6eyJjdXJyZW50Ijp7InZpZGVvIjp7ImNvZGVjcyI6WyJIXzI2NF80MiIsIkhfMjY0XzQxIl19LCJzaXplIjp7InR5cGUiOiJESVNDUkVURSIsInBpeGVsV2lkdGgiOjEwMjQsInBpeGVsSGVpZ2h0Ijo2MDB9fX19XX0sInJlcXVlc3QiOnsidHlwZSI6IkludGVudFJlcXVlc3QiLCJyZXF1ZXN0SWQiOiJhbXpuMS5lY2hvLWFwaS5yZXF1ZXN0LjNiM2JhZmFlLTRlNjEtNDk4Mi1hMzNhLTk4NTEwMDQ0OTA3YiIsInRpbWVzdGFtcCI6IjIwMjAtMDItMjBUMjI6MzY6NDJaIiwibG9jYWxlIjoiZW4tVVMiLCJpbnRlbnQiOnsibmFtZSI6IkV2ZXJ5VGhpbmdJbnRlbnQiLCJjb25maXJtYXRpb25TdGF0dXMiOiJOT05FIiwic2xvdHMiOnsiRXZlcnlUaGluZ1Nsb3QiOnsibmFtZSI6IkV2ZXJ5VGhpbmdTbG90IiwidmFsdWUiOiJncm91cCBtZW1iZXJzIiwicmVzb2x1dGlvbnMiOnsicmVzb2x1dGlvbnNQZXJBdXRob3JpdHkiOlt7ImF1dGhvcml0eSI6ImFtem4xLmVyLWF1dGhvcml0eS5lY2hvLXNkay5hbXpuMS5hc2suc2tpbGwuNTViMDMxMmMtNTAzNC00YjZiLTlmOTEtNTBkNmI5MWIzYmM4LkJBR19PRl9XT1JEUyIsInN0YXR1cyI6eyJjb2RlIjoiRVJfU1VDQ0VTU19OT19NQVRDSCJ9fV19LCJjb25maXJtYXRpb25TdGF0dXMiOiJOT05FIiwic291cmNlIjoiVVNFUiJ9fX19fQ==',",
+        "2020-02-20T22:36:48.152935Z    stdout: __ow_headers:",
+        "2020-02-20T22:36:48.152938Z    stdout: { accept: 'application/json',",
+        "2020-02-20T22:36:48.152940Z    stdout: 'accept-charset': 'UTF-8',",
+        "2020-02-20T22:36:48.152943Z    stdout: 'accept-encoding': 'gzip',",
+        "2020-02-20T22:36:48.152945Z    stdout: 'cdn-loop': 'cloudflare',",
+        "2020-02-20T22:36:48.152948Z    stdout: 'cf-connecting-ip': '72.21.217.47',",
+        "2020-02-20T22:36:48.152951Z    stdout: 'cf-ipcountry': 'US',",
+        "2020-02-20T22:36:48.152953Z    stdout: 'cf-ray': '5683f5ffdcb6cef8-IAD',",
+        "2020-02-20T22:36:48.152956Z    stdout: 'cf-visitor': '{\"scheme\":\"https\"}',",
+        "2020-02-20T22:36:48.152958Z    stdout: 'content-type': 'application/json',",
+        "2020-02-20T22:36:48.152961Z    stdout: cookie: '__cfduid=d226d26d616604d33bdb4fb15bf2183441581982839',",
+        "2020-02-20T22:36:48.152963Z    stdout: host: 'us-south.functions.cloud.ibm.com',",
+        "2020-02-20T22:36:48.152965Z    stdout: signature:",
+        "2020-02-20T22:36:48.152968Z    stdout: 'ompr2WDz7ib/j19xkT7JAGyiYyyikWkyy62FKEAoDVdGEgZHb/Y3mkEMnIi0J1l31g3jmx7JHLrc5ZnBzIVKcItbX8mckbY/IFJRkIEppPHas8PuFV5ODIN+F0f7/QJWba9kz3tJVrAsBISg45rL3blXAxs1JP+E7E+PgUzqKm/JTVG3pTFd243iA0YHDnhaVvPEpEIFZ4FdyFv6+gCxpcxvBOIuTafoHf3UnNTmTlMeV69EplPBhBIKFtkqYNMB9ofMP4A6NfFwpXqBK/0WBr2xq4zWvDpPMO9+/2Hsf+pyLUBFPf7l+c3A/VHe2K5dgsPuI+1Jcil8LW7snO5Sjw==',",
+        "2020-02-20T22:36:48.152970Z    stdout: signaturecertchainurl: 'https://s3.amazonaws.com/echo.api/echo-api-cert-7.pem',",
+        "2020-02-20T22:36:48.152973Z    stdout: 'user-agent': 'Apache-HttpClient/UNAVAILABLE (Java/1.8.0_242)',",
+        "2020-02-20T22:36:48.152975Z    stdout: 'x-forwarded-for': '72.21.217.47, 162.158.79.251',",
+        "2020-02-20T22:36:48.152978Z    stdout: 'x-forwarded-host': 'us-south.functions.cloud.ibm.com',",
+        "2020-02-20T22:36:48.152980Z    stdout: 'x-forwarded-port': '443',",
+        "2020-02-20T22:36:48.152982Z    stdout: 'x-forwarded-proto': 'https',",
+        "2020-02-20T22:36:48.152985Z    stdout: 'x-global-k8fdic-transaction-id': '15d9095499a1d481b8dceabce64dd28d',",
+        "2020-02-20T22:36:48.152999Z    stdout: 'x-real-ip': '162.158.79.251',",
+        "2020-02-20T22:36:48.153002Z    stdout: 'x-request-id': '15d9095499a1d481b8dceabce64dd28d' },",
+        "2020-02-20T22:36:48.153004Z    stdout: __ow_method: 'post',",
+        "2020-02-20T22:36:48.153007Z    stdout: __ow_path: '',",
+        "2020-02-20T22:36:48.153009Z    stdout: __ow_query: '' }",
+        "2020-02-20T22:36:48.153153Z    stdout: Alexa attributes:",
+        "2020-02-20T22:36:48.153178Z    stdout: undefined",
+        "2020-02-20T22:36:48.340118Z    stdout: Connected to Watson Assistant",
+        "2020-02-20T22:36:48.340206Z    stdout: SKILL_ID: f057afd2-53a2-4a7c-8c38-38f33c1d8b11",
+        "2020-02-20T22:36:48.340213Z    stdout: Input text: group members",
+        "2020-02-20T22:36:49.078676Z    stdout: Watson result:  { intents: [ { intent: 'group_members', confidence: 1 } ],",
+        "2020-02-20T22:36:49.078704Z    stdout: entities: [],",
+        "2020-02-20T22:36:49.078708Z    stdout: input: { text: 'group members' },",
+        "2020-02-20T22:36:49.078710Z    stdout: output:",
+        "2020-02-20T22:36:49.078713Z    stdout: { generic: [ [Object] ],",
+        "2020-02-20T22:36:49.078716Z    stdout: text:",
+        "2020-02-20T22:36:49.078718Z    stdout: [ 'Your team members are Jake, Jiyeon, Eric, Tyler, and Theo.' ],",
+        "2020-02-20T22:36:49.078721Z    stdout: nodes_visited: [ 'node_7_1581719480231' ],",
+        "2020-02-20T22:36:49.078724Z    stdout: log_messages: [] },",
+        "2020-02-20T22:36:49.078727Z    stdout: context:",
+        "2020-02-20T22:36:49.078729Z    stdout: { conversation_id: '3bb9cc6d-425d-4875-901b-b749e551ede4',",
+        "2020-02-20T22:36:49.078732Z    stdout: system:",
+        "2020-02-20T22:36:49.078734Z    stdout: { initialized: true,",
+        "2020-02-20T22:36:49.078737Z    stdout: dialog_stack: [Array],",
+        "2020-02-20T22:36:49.078739Z    stdout: dialog_turn_counter: 1,",
+        "2020-02-20T22:36:49.078741Z    stdout: dialog_request_counter: 1,",
+        "2020-02-20T22:36:49.078744Z    stdout: _node_output_map: [Object],",
+        "2020-02-20T22:36:49.078746Z    stdout: branch_exited: true,",
+        "2020-02-20T22:36:49.078749Z    stdout: branch_exited_reason: 'completed' } } }",
+        "2020-02-20T22:36:49.078776Z    stdout: Begin sendResponse",
+        "2020-02-20T22:36:49.078943Z    stdout: { status: 200,",
+        "2020-02-20T22:36:49.078949Z    stdout: statusText: 'OK',",
+        "2020-02-20T22:36:49.078952Z    stdout: headers:",
+        "2020-02-20T22:36:49.078955Z    stdout: { 'content-type': 'application/json; charset=utf-8',",
+        "2020-02-20T22:36:49.078957Z    stdout: 'content-length': '655',",
+        "2020-02-20T22:36:49.078960Z    stdout: 'access-control-allow-origin': '*',",
+        "2020-02-20T22:36:49.078962Z    stdout: 'access-control-allow-methods': 'GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS',",
+        "2020-02-20T22:36:49.078965Z    stdout: 'access-control-allow-headers':",
+        "2020-02-20T22:36:49.078967Z    stdout: 'Content-Type, Content-Length, Authorization, X-Watson-Authorization-Token, X-WDC-PL-OPT-OUT, X-Watson-UserInfo, X-Watson-Learning-Opt-Out, X-Watson-Metadata',",
+        "2020-02-20T22:36:49.078970Z    stdout: 'access-control-max-age': '3600',",
+        "2020-02-20T22:36:49.078972Z    stdout: 'content-security-policy': 'default-src \\'none\\'',",
+        "2020-02-20T22:36:49.078975Z    stdout: 'x-dns-prefetch-control': 'off',",
+        "2020-02-20T22:36:49.078977Z    stdout: 'x-frame-options': 'SAMEORIGIN',",
+        "2020-02-20T22:36:49.078979Z    stdout: 'strict-transport-security': 'max-age=31536000; includeSubDomains;',",
+        "2020-02-20T22:36:49.078982Z    stdout: 'x-download-options': 'noopen',",
+        "2020-02-20T22:36:49.078984Z    stdout: 'x-content-type-options': 'nosniff',",
+        "2020-02-20T22:36:49.078987Z    stdout: 'x-xss-protection': '1; mode=block',",
+        "2020-02-20T22:36:49.078989Z    stdout: 'x-response-time': '66.628ms',",
+        "2020-02-20T22:36:49.078992Z    stdout: 'x-global-transaction-id': '5552745287ab13d242437f7b4b6e64fc',",
+        "2020-02-20T22:36:49.078994Z    stdout: 'x-dp-watson-tran-id': '5552745287ab13d242437f7b4b6e64fc',",
+        "2020-02-20T22:36:49.078997Z    stdout: 'x-edgeconnect-midmile-rtt': '0',",
+        "2020-02-20T22:36:49.078999Z    stdout: 'x-edgeconnect-origin-mex-latency': '227',",
+        "2020-02-20T22:36:49.079001Z    stdout: date: 'Thu, 20 Feb 2020 22:36:49 GMT',",
+        "2020-02-20T22:36:49.079004Z    stdout: connection: 'close' },",
+        "2020-02-20T22:36:49.079006Z    stdout: result:",
+        "2020-02-20T22:36:49.079009Z    stdout: { intents: [ [Object] ],",
+        "2020-02-20T22:36:49.079011Z    stdout: entities: [],",
+        "2020-02-20T22:36:49.079013Z    stdout: input: { text: 'group members' },",
+        "2020-02-20T22:36:49.079016Z    stdout: output:",
+        "2020-02-20T22:36:49.079018Z    stdout: { generic: [Array],",
+        "2020-02-20T22:36:49.079021Z    stdout: text: [Array],",
+        "2020-02-20T22:36:49.079023Z    stdout: nodes_visited: [Array],",
+        "2020-02-20T22:36:49.079026Z    stdout: log_messages: [] },",
+        "2020-02-20T22:36:49.079028Z    stdout: context:",
+        "2020-02-20T22:36:49.079031Z    stdout: { conversation_id: '3bb9cc6d-425d-4875-901b-b749e551ede4',",
+        "2020-02-20T22:36:49.079033Z    stdout: system: [Object] } } }",
+        "2020-02-20T22:36:49.079052Z    stdout: Output text: Your team members are Jake, Jiyeon, Eric, Tyler, and Theo."
+    ],
+    "name": "alexa-watson",
+    "namespace": "jzl0213@auburn.edu_dev",
+    "publish": false,
+    "response": {
+        "result": {
+            "response": {
+                "outputSpeech": {
+                    "text": "Your team members are Jake, Jiyeon, Eric, Tyler, and Theo.",
+                    "type": "PlainText"
+                },
+                "shouldEndSession": false
+            },
+            "sessionAttributes": {
+                "watsonContext": {
+                    "conversation_id": "3bb9cc6d-425d-4875-901b-b749e551ede4",
+                    "system": {
+                        "_node_output_map": {
+                            "node_7_1581719480231": {
+                                "0": [
+                                    0,
+                                    0,
+                                    1,
+                                    3,
+                                    2
+                                ]
+                            }
+                        },
+                        "branch_exited": true,
+                        "branch_exited_reason": "completed",
+                        "dialog_request_counter": 1,
+                        "dialog_stack": [
+                            {
+                                "dialog_node": "root"
+                            }
+                        ],
+                        "dialog_turn_counter": 1,
+                        "initialized": true
+                    }
+                }
+            },
+            "version": "1.0"
+        },
+        "size": 495,
+        "status": "success",
+        "success": true
+    },
+    "start": 1582238205986,
+    "subject": "jzl0213@auburn.edu",
+    "version": "0.0.9"
+}
