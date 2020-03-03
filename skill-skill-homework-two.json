@@ -1,0 +1,291 @@
+{
+  "intents": [
+    {
+      "intent": "group_leader",
+      "examples": [
+        {
+          "text": "Who is the group leader?"
+        },
+        {
+          "text": "Give me your group leader's name."
+        },
+        {
+          "text": "Who's your leader?"
+        },
+        {
+          "text": "What is your group leader's name?"
+        },
+        {
+          "text": "Who is your group's leader"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "group_members",
+      "examples": [
+        {
+          "text": "group members"
+        },
+        {
+          "text": "group mates"
+        },
+        {
+          "text": "teammates"
+        },
+        {
+          "text": "my team"
+        },
+        {
+          "text": "my group"
+        },
+        {
+          "text": "team members"
+        },
+        {
+          "text": "Who are my team members?"
+        },
+        {
+          "text": "Who are my group members?"
+        },
+        {
+          "text": "Who is on my team?"
+        },
+        {
+          "text": "Who is on my group?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "group_name",
+      "examples": [
+        {
+          "text": "Give me the name of the group."
+        },
+        {
+          "text": "Give me your group name."
+        },
+        {
+          "text": "What is the name of the group?"
+        },
+        {
+          "text": "What is the name of your group?"
+        },
+        {
+          "text": "What is your group's name?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "parent": "node_7_1581719480231",
+      "dialog_node": "slot_1_1581723725101"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1581723715883",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1581723715958",
+      "previous_sibling": "handler_1_1581723715958"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1581723715883",
+      "event_name": "input",
+      "dialog_node": "handler_1_1581723715958"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1581719484247",
+      "dialog_node": "slot_10_1581723715883"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1581723725101",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1581723725159",
+      "previous_sibling": "handler_1_1581723725159"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1581723725101",
+      "event_name": "input",
+      "dialog_node": "handler_1_1581723725159"
+    },
+    {
+      "type": "frame",
+      "title": "Group Name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your group name is 404: Name Not Found."
+              },
+              {
+                "text": "It is 404: Name Not Found."
+              },
+              {
+                "text": "Name of the group is 404: Name Not Found."
+              },
+              {
+                "text": "The name's 404: Name Not Found."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#group_name",
+      "dialog_node": "node_8_1581719466513",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Group Members",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your team members are Jake, Jiyeon, Eric, Tyler, and Theo."
+              },
+              {
+                "text": "Your group members are Jake, Jiyeon, Eric, Tyler, and Theo."
+              },
+              {
+                "text": "Jake, Jiyeon, Eric, Tyler, and Theo are in your team."
+              },
+              {
+                "text": "Jake, Jiyeon, Eric, Tyler, and Theo are in your group."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#group_members",
+      "dialog_node": "node_7_1581719480231",
+      "previous_sibling": "node_8_1581719466513"
+    },
+    {
+      "type": "standard",
+      "title": "Group Leader",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The group leader is Jiyeon Lee"
+              },
+              {
+                "text": " The supreme leader is Jiyeon Lee"
+              },
+              {
+                "text": "Jiyeon Lee is the group leader"
+              },
+              {
+                "text": "Theo Zinner is not your group leader, but Jiyeon Lee is"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#group_leader",
+      "dialog_node": "node_1_1581719484247",
+      "previous_sibling": "node_7_1581719480231"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1581719484247",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "skill-homework-two",
+  "language": "en",
+  "description": ""
+}
